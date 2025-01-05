@@ -1,0 +1,1 @@
+This is a backend application for booking appointment with docters. It includes features such as role based access for patients, docters and admins, real time-booking, user management and docter availability features along with payment gateways.
