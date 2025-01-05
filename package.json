@@ -1,0 +1,11 @@
+{
+  "name": "book-a-doc-backend",
+  "version": "1.0.0",
+  "description": "backend application for booking appointment with docters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj Kumar",
+  "license": "ISC"
+}
