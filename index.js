@@ -2,10 +2,10 @@ import express from "express"
 import cors from 'cors'
 import 'dotenv/config'
 import connectDB from "./src/config/databaseConnection.js"
-import userRouter from "./routes/userRoute.js"
-import connectCloudinary from "./config/cloudinary.js"
-import doctorRouter from "./routes/doctorRoute.js"
-import adminRouter from "./routes/adminRoute.js"
+import userRouter from "./src/routes/userRoute.js"
+import connectCloudinary from "./src/config/cloudinary.js"
+import doctorRouter from "./src/routes/docterRoute.js"
+import adminRouter from "./src/routes/adminRoute.js"
 
 const app = express()
 const port = process.env.PORT || 4000
