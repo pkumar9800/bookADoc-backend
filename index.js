@@ -4,7 +4,7 @@ import 'dotenv/config'
 import connectDB from "./src/config/databaseConnection.js"
 import userRouter from "./src/routes/userRoute.js"
 import connectCloudinary from "./src/config/cloudinary.js"
-import doctorRouter from "./src/routes/docterRoute.js"
+import doctorRouter from "./src/routes/doctorRoute.js"
 import adminRouter from "./src/routes/adminRoute.js"
 
 const app = express()
